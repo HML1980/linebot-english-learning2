@@ -1,0 +1,17 @@
+# 核心 Web 框架
+Flask==3.0.0
+flask-cors==4.0.0
+
+# 資料庫
+supabase==2.0.0
+
+# 工具套件
+python-dotenv==1.0.0
+requests==2.31.0
+python-dateutil==2.8.2
+
+# 部署相關
+gunicorn==21.2.0
+
+# 暫時移除的套件（待解決 aiohttp 問題）
+# line-bot-sdk==3.5.0  # 依賴 aiohttp==3.8.5，與 Python 3.12 不相容
